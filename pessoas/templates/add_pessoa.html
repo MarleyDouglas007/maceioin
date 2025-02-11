@@ -1,0 +1,15 @@
+<!-- pessoas/templates/add_pessoa.html -->
+<html>
+<head>
+    <title>Adicionar Pessoa</title>
+</head>
+<body>
+    <h1>Adicionar Pessoa</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Salvar</button>
+    </form>
+    <a href="{% url 'list_pessoas' %}">Voltar para a lista</a>
+</body>
+</html>
