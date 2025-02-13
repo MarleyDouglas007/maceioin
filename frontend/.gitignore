@@ -1,0 +1,21 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Vue.js
+frontend/node_modules/
+frontend/dist/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django Migrations
+pessoas/migrations/__pycache__/
+
+# IDEs e Sistemas
+.vscode/
+.idea/
+.DS_Store
